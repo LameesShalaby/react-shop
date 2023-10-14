@@ -1,0 +1,40 @@
+.slide img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+.carousel-caption{
+    margin: auto;
+    width: 50%;
+}
+.carousel-title{
+    font-size: 50px;
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+.carousel-p{
+    color:var(--main-color);
+    font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+}
+.carousel-caption{
+    width: -webkit-fill-available;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.carousel-title{
+    font-size: 39px;
+}
+.carousel-p{
+    font-size: 12px;
+    line-height: 14px;
+}
+.slide img{
+    height: 50vh;
+}
+}

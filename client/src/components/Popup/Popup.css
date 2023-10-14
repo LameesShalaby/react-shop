@@ -1,0 +1,9 @@
+.modal.show .modal-dialog {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-content{
+    width: 60%;
+}

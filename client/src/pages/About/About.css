@@ -1,0 +1,307 @@
+.about-page-heading {
+    margin-top: 0;
+    margin-bottom: 30px;
+    background-image: url(../../assets/assets/images/about-us-page-heading.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+  .about-page-heading h2{
+    font-size: 60px;
+    color: var(--main-color);
+  }
+  .about-page-heading span{
+    color: var(--main-color);
+  }
+  .about-us {
+    margin-top: 80px;
+  }
+  
+  .about-us .left-image img {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .about-us .right-content{
+    font-size: 34px;
+    font-weight: 700;
+    margin-left: 30px;
+  }
+  
+  .about-us .right-content span {
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    margin-top: 25px;
+    opacity: .7;
+  }
+  
+  .about-us .right-content .quote {
+    margin-top: 25px;
+  }
+  
+  .about-us .right-content .quote i {
+    float: left;
+    font-size: 32px;
+    margin-right: 15px;
+    margin-top: 10px;
+  }
+  
+  .about-us .right-content .quote p {
+    font-style: italic;
+    font-weight: 500;
+  }
+  
+  .about-us .right-content p {
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+    margin-top: 25px;
+    opacity: .7;
+  }
+  
+  .about-us .right-content ul {
+    border-top: 3px dotted #eee;
+    margin-top: 30px;
+    padding-top: 30px;
+  }
+  
+  .about-us .right-content ul li {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .about-us .right-content ul li a {
+    width: 44px;
+    height: 44px;
+    background-color: #2a2a2a;
+    color: var(--main-color);
+    display: inline-block;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 50%;
+    transition: all .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 22px;
+  }
+  
+  .about-us .right-content ul li a:hover {
+    background-color: #eee;
+    color: #2a2a2a;
+  }
+  
+  .our-team {
+    margin-top: 100px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    border-top: 3px dotted #eee;
+  }
+  
+  .our-team .section-heading {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  
+  .our-team .section-heading h2 {
+    margin-bottom: 10px;
+  }
+  
+  .our-team .team-item .thumb {
+    position: relative;
+  }
+  
+  .our-team .team-item .thumb img {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .our-team .team-item .thumb .hover-effect {
+    position: absolute;
+    background-color: rgba(0,0,0,0.9);
+    width: 100%;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s;
+  }
+  
+  .our-team .team-item .thumb:hover .hover-effect {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .our-team .team-item .thumb .hover-effect .inner-content {
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    width: 100%;
+    transform: translateY(-22px);
+  }
+  
+  .our-team .team-item .thumb .hover-effect .inner-content ul li {
+    display: inline-block;
+    margin: 0px 5px;
+  }
+  
+  .our-team .team-item .thumb .hover-effect .inner-content ul li a {
+    width: 44px;
+    height: 44px;
+    background-color: #fff;
+    color: #2a2a2a;
+    display: inline-block;
+    text-align: center;
+    line-height: 44px;
+    border-radius: 50%;
+    transition: all .3s;
+  }
+  
+  .our-team .team-item .thumb .hover-effect .inner-content ul li a:hover {
+    background-color: #2a2a2a;
+    color: #fff;
+  }
+  
+  .our-team .team-item .down-content {
+    text-align: center;
+    padding-top: 25px;
+  }
+  
+  .our-team .team-item .down-content h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+  
+  .our-team .team-item .down-content span {
+    font-size: 14px;
+    color: #a1a1a1;
+    font-weight: 500;
+    display: block;
+    font-style: italic;
+  }
+  
+  .our-services {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    border-top: 3px dotted #eee;
+    border-bottom: 3px dotted #eee;
+  }
+  
+  .our-services .section-heading {
+    margin-bottom: 60px;
+    text-align: center;
+  }
+  
+  .our-services .section-heading h2 {
+    margin-bottom: 10px;
+  }
+  
+  .our-services .service-item {
+    padding: 30px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.10);
+    text-align: center;
+  }
+  
+  .our-services .service-item img {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .our-services .service-item h4 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .our-services .service-item p {
+    margin-bottom: 25px;
+  }
+  .subscribe {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 3px dotted #eee;
+  }
+  
+  .subscribe .section-heading {
+    margin-bottom: 30px;
+  }
+  
+  .subscribe .section-heading h2 {
+    line-height: 55px;
+  }
+
+  .subscribe {
+    margin-top: 90px;
+  }
+  
+  .subscribe .section-heading {
+    margin-bottom: 30px;
+  }
+  
+  .subscribe .section-heading h2 {
+    line-height: 55px;
+  }
+  
+  .subscribe form input {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    padding: 0px 15px;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    color: #aaa;
+    border-radius: 0px;
+    border: 1px solid #7a7a7a;
+    box-shadow: none;
+  }
+  
+  .subscribe form input::focus {
+    border-color: #2a2a2a;
+    border-radius: 0px;
+  }
+  
+  .subscribe form button {
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    text-align: center;
+    line-height: 44px;
+    background-color: #2a2a2a;
+    box-shadow: none;
+    border: 1px solid transparent;
+    color: #fff;
+    transition: all 0.3s;
+  }
+  
+  .subscribe form button:hover {
+    background-color: #fff;
+    border: 1px solid #2a2a2a;
+    color: #2a2a2a;
+  }
+  
+  .subscribe ul li {
+    margin-bottom: 30px;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .subscribe ul li span,
+  .subscribe ul li span a {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: .7;
+  }
+  
+  .subscribe ul li span a:hover {
+    color: #2a2a2a;
+  }

@@ -1,0 +1,11 @@
+.related-products{
+    padding-top: 5em;
+    padding-bottom: 6em;
+}
+.related-products a{
+    display: inline-flex ;
+}
+.related-products .card{
+    width: 300px;
+    margin: 12px;
+}

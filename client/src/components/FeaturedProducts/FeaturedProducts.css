@@ -1,0 +1,31 @@
+
+.featured .top{
+    display: flex;
+    justify-content: center;
+    padding-top: 7em;
+    padding-bottom: 2em;
+  }
+  .featured .top h1{
+    text-transform: capitalize;
+    font-size: 50px;
+  }
+  .featured .top p {
+    font-size: 14px;
+    opacity: .7;
+    margin-right: 25px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .featured .top{
+      padding-top: 5em;
+      padding-bottom: 1em;
+      flex-direction: column;
+    }
+    .featured .top h1{
+      font-size: 40px;
+    }
+    .featured .top p{
+      margin-right: 0;
+    }
+
+  }

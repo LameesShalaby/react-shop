@@ -1,0 +1,14 @@
+.home-bottom{
+    padding-bottom: 9em;
+}
+.home-category{
+    padding: 9em 0 3em 0;
+}
+@media (max-width:660px) {
+    .home-bottom{
+        padding-bottom: 7em;
+    }
+    .home-category{
+        padding: 7em 0 2em 0;
+    }
+}
