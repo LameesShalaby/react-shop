@@ -1,4 +1,4 @@
-import {React,useContext, useEffect, useState} from 'react';
+import {useContext, useEffect} from 'react';
 import './Checkbox.css';
 import qs from "qs";
 import storeContex from '../../hooks/storeContex'

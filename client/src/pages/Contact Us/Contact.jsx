@@ -1,4 +1,3 @@
-import React from 'react'
 import './Contact.css'
 
 const Contact = () => {
@@ -31,7 +30,7 @@ const Contact = () => {
               </div>
               <div className="col-lg-6 animate__animated animate__fadeInRight animate__delay-2s">
                 <div className="section-heading">
-                  <h2>Say Hello. Don't Be Shy!</h2>
+                  <h2>Say Hello. Do not Be Shy!</h2>
                   <span>Details to details is what makes Hexashop different from the other themes.</span>
                 </div>
                 <form id="contact" action={`${true}`} method="POST">

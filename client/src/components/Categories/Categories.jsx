@@ -8,7 +8,7 @@ const Categories = () => {
   const [categories, setCategories] = useState([]);
   const { id } = useParams();
   const catId = parseInt(id);
-  const { data, loading, error } = useFetch(
+  const { data, loading } = useFetch(
     `/categories?[filters][categories][id][$eq]=${catId}`
   );
 

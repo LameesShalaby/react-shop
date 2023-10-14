@@ -1,5 +1,4 @@
-import { Button, Space } from "antd";
-import React from "react";
+import { Space } from "antd";
 import { useNavigate } from "react-router-dom";
 import { useAuthContext } from "../../context/AuthContext";
 import { removeToken } from "../../helpers";

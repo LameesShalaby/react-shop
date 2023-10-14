@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './Cart.css';
-import { FaShoppingCart, FaTrash, FaUndo } from 'react-icons/fa';
+import { FaShoppingCart, FaTrash } from 'react-icons/fa';
 import { useSelector, useDispatch } from 'react-redux';
 import { removeFromCart, resetCart } from '../../redux/cartReducer';
 import { Link } from 'react-router-dom';

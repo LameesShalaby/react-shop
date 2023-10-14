@@ -16,7 +16,6 @@
 // export default Logout;
 
 
-import React from 'react';
 
 const Logout = () => {
   const handleLogout = () => {

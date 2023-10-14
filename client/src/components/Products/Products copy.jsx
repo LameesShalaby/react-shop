@@ -17,7 +17,7 @@ import { FaRegEye } from "react-icons/fa";
 const Products = () => {
   const [products, setProducts] = useState([])
   const { filter } = useContext(storeContex)
-  const { data, loading, error } = useFetch(filter)
+  const { data, loading } = useFetch(filter)
   const dispatch = useDispatch()
   const [selectedProduct, setSelectedProduct] = useState(null); // Track selected product
   const handleProductClick = (product) => {

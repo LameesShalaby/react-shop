@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import './CatInfo.css';
 import { useParams } from 'react-router-dom';
 import { useFetch } from '../../hooks/useFetch';

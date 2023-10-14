@@ -1,4 +1,4 @@
-import React, { useState } from 'react'; // Import useState
+import { useState } from 'react'; // Import useState
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS

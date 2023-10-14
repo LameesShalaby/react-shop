@@ -10,7 +10,7 @@ import {
     Spin,
     Typography,
   } from "antd";
-  import React, { Fragment, useState } from "react";
+  import { Fragment, useState } from "react";
   import { Link } from "react-router-dom";
   import { useNavigate } from "react-router-dom";
   import { useAuthContext } from "../../context/AuthContext";
@@ -118,7 +118,7 @@ import {
                 </Form.Item>
               </Form>
               <Typography.Paragraph className="form_help_text">
-                Don't have an accout? <Link to="/signup">Sign Up</Link>
+                Do not have an accout? <Link to="/signup">Sign Up</Link>
               </Typography.Paragraph>
             </Card>
           </Col>

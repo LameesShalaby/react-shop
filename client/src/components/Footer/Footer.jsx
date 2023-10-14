@@ -81,7 +81,7 @@ const Footer = () => {
         <h2>Help & Information</h2>
         <ul className=''>
             <li className=''><a href=''>Help </a></li>
-            <li className=''><a href=''>FAQ's </a></li>
+            <li className=''><a href=''>FAQs </a></li>
             <li className=''><a href=''>Shipping </a></li>
             <li className=''><a href=''>Tracking ID </a></li>
             </ul>

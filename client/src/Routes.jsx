@@ -1,4 +1,3 @@
-import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Products from './components/Products/Products';
 import Category from './components/Category/Category';

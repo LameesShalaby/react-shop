@@ -1,4 +1,4 @@
-import React, { useState , useEffect } from "react";
+import { useState , useEffect } from "react";
 import { AuthContext } from "../../context/AuthContext";
 import { message } from "antd";
 import { API, BEARER } from "../../constant";

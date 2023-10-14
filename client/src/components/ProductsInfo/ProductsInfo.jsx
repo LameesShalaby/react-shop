@@ -3,12 +3,12 @@ import { useFetch } from '../../hooks/useFetch';
 import "./productsInfo.css";
 import { addToCart } from '../../redux/cartReducer';
 import { useDispatch } from 'react-redux';
-import { Link, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { FaRegStar } from "react-icons/fa";
 import RelatedProducts from '../RelatedProducts/RelatedProducts';
 import Popup  from '../Popup/Popup';
 
-const ProductsInfo = (props) => {
+const ProductsInfo = () => {
   const dispatch = useDispatch();
   const { id } = useParams();
   const { data, loading, error } = useFetch(`/products/${id}?populate=*&`);
@@ -57,12 +57,12 @@ const ProductsInfo = (props) => {
                   <img
                     src={`http://localhost:1337${product?.attributes?.img?.data?.attributes?.url}`}
                     alt=""
-                    onClick={(e) => setSelectedImg("img")}
+                    onClick={() => setSelectedImg("img")}
                   />
                   <img
                     src={`http://localhost:1337${product?.attributes?.img2?.data?.attributes?.url}`}
                     alt=""
-                    onClick={(e) => setSelectedImg("img2")}
+                    onClick={() => setSelectedImg("img2")}
                   />
                 </div>
                 <div className="mainImg">
